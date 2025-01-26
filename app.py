@@ -57,6 +57,7 @@ def summarize():
     
 # For local testing with `python app.py`, you can uncomment the block below.
 # Otherwise, Gunicorn will automatically detect 'app' as the WSGI callable.
+# kick update
 
 # if __name__ == "__main__":
 #    # Debug mode for development. Disable in production.
