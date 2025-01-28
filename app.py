@@ -43,7 +43,7 @@ def summarize():
     text_content = request.form.get('text_content', '').strip()
 
     if not text_content:
-        flash('Please enter text to summarize.', 'error')
+        flash('Proszę wpisać tekst.', 'error')
         return redirect(url_for('home'))
 
     try:
