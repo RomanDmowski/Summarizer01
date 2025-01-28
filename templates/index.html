@@ -15,7 +15,7 @@
   <div class="container">
     <header>
       <h1>OpenAI Text Summarizer</h1>
-      <p class="text-muted">Enter text below and click Summarize</p>
+      <p class="text-muted">Wprowadź poniżej tekst i naciśnij przycisk Zmień formy osobowe</p>
       {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
           {% for category, msg in messages %}
@@ -30,7 +30,7 @@
     <!-- Text input form -->
     <form id="summarizerForm">
       <div class="form-group mb-3">
-        <label for="textContent">Your Text (max 2000 characters):</label>
+        <label for="textContent">Tekst (max 2000 characters):</label>
         <textarea
           class="form-control"
           id="textContent"
@@ -43,7 +43,7 @@
           0 / 2000 characters
         </small>
       </div>
-      <button type="submit" class="btn btn-primary">Summarize</button>
+      <button type="submit" class="btn btn-primary">Zmień formy osobowe</button>
       <button type="button" id="clearBtn" class="btn btn-secondary">Clear</button>
     </form>
 
